@@ -9,13 +9,12 @@ body {
   max-width: 1920px;
   margin: 0 auto;
   font-family: 'saira', arial, sans-serif;
-  overflow: hidden;
 }
 
 header {
   position: relative;
   height: 100vh;
-  background: #334652;
+  background-color: #3D4757;
 }
 
 header .name {
@@ -28,9 +27,9 @@ header .name {
   padding: 0 30px;
   text-align: center;
   letter-spacing: 1px;
-  color: #ac7a33;
-  -webkit-animation: move 3s linear;
-          animation: move 3s linear;
+  color: #D7FFB3;
+  -webkit-animation: move 2s linear;
+          animation: move 2s linear;
   overflow: hidden;
   text-transform: uppercase;
   z-index: 1;
@@ -58,7 +57,7 @@ header .photo {
   right: 0;
   bottom: 0;
   height: 55%;
-  background: #334652;
+  background-color: #3D4757;
   overflow: hidden;
 }
 
@@ -294,4 +293,8 @@ header .photo {
   0% {
     left: -50%;
   }
+}
+
+.intro {
+  overflow: hidden;
 }
