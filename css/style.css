@@ -324,7 +324,10 @@ header .photo {
   text-align: center;
   margin-top: 30px;
   font-size: 16px;
-  padding: 0 10px;
+  padding: 30px 10px;
+  text-transform: uppercase;
+  background-color: #1073ba;
+  color: white;
 }
 
 .offer .technology h2 {
@@ -432,6 +435,7 @@ header .photo {
 @media (orientation: landscape) and (min-width: 1024px) {
   .offer .head {
     font-size: 21px;
+    padding: 50px 10px;
   }
   .offer .flex h2 {
     font-size: 15px;
@@ -441,6 +445,7 @@ header .photo {
 @media (orientation: landscape) and (min-width: 1366px) {
   .offer .head {
     font-size: 23px;
+    padding: 60px 10px;
   }
   .offer .flex h2 {
     font-size: 17px;
@@ -463,4 +468,18 @@ header .photo {
   .offer .flex h2 {
     font-size: 24px;
   }
+}
+
+.proud {
+  max-width: 1366px;
+  width: 100%;
+  background-color: #e6a329;
+  color: white;
+  text-align: center;
+  height: 15vh;
+  margin: 0 auto;
+  line-height: 15vh;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 20px;
 }
