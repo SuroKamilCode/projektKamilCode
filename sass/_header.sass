@@ -1,0 +1,44 @@
+header
+    position: relative
+    height: 100vh
+    background: #334652
+
+    .name
+        position: absolute
+        top: 10%
+        left: 50%
+        transform: translateX(-50%)
+        width: 80%
+        height: 50%
+        text-align: center
+        letter-spacing: 1px
+        color: #ac7a33
+        animation: move 3s linear
+        overflow: hidden
+        text-transform: uppercase
+
+        h1
+            font-size: 16px
+            font-weight: 700
+
+        h2
+            font-size: 16px
+            padding-top: 5px
+            font-weight: 400
+
+        h3
+            font-size: 12px
+            padding-top: 10px
+            font-weight: 400
+
+    .photo
+        position: absolute
+        right: 0
+        bottom: 0
+        height: 50%
+        background: #334652
+        overflow: hidden
+
+@keyframes move
+    0%
+        left: -50%
