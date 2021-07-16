@@ -127,6 +127,18 @@ header .photo {
   }
 }
 
+@media (min-width: 1024px) {
+  header .name h1 {
+    font-size: 35px;
+  }
+  header .name h2 {
+    font-size: 35px;
+  }
+  header .name h3 {
+    font-size: 33px;
+  }
+}
+
 @media (min-width: 533px) and (orientation: landscape) {
   header .name {
     top: 50%;
@@ -303,7 +315,7 @@ header .photo {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  max-width: 1024px;
+  max-width: 1366px;
   margin: 0 auto;
 }
 
@@ -337,4 +349,118 @@ header .photo {
 .offer .flex img {
   width: 70%;
   margin: 0 auto;
+}
+
+@media (min-width: 411px) {
+  .offer .head {
+    font-size: 18px;
+  }
+  .offer .flex h2 {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .offer .head {
+    font-size: 30px;
+  }
+  .offer .flex h2 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .offer .head {
+    font-size: 40px;
+  }
+  .offer .flex h2 {
+    font-size: 32px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 533px) {
+  .offer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .offer .head {
+    font-size: 16px;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .offer .flex {
+    -ms-flex-preferred-size: 15%;
+        flex-basis: 15%;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    padding: 20px 30px;
+  }
+  .offer .flex h2 {
+    font-size: 10px;
+  }
+  .offer .flex img {
+    width: 100%;
+  }
+  .offer .technology h2 {
+    padding: 0;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 640px) {
+  .offer .head {
+    font-size: 17px;
+  }
+  .offer .flex h2 {
+    font-size: 11px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 731px) {
+  .offer .head {
+    font-size: 19px;
+  }
+  .offer .flex h2 {
+    font-size: 13px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1024px) {
+  .offer .head {
+    font-size: 21px;
+  }
+  .offer .flex h2 {
+    font-size: 15px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1366px) {
+  .offer .head {
+    font-size: 23px;
+  }
+  .offer .flex h2 {
+    font-size: 17px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1600px) {
+  .offer .head {
+    font-size: 25px;
+  }
+  .offer .flex h2 {
+    font-size: 19px;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1920px) {
+  .offer .head {
+    font-size: 30px;
+  }
+  .offer .flex h2 {
+    font-size: 24px;
+  }
 }
