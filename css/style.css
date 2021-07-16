@@ -307,7 +307,7 @@ header .photo {
   margin: 0 auto;
 }
 
-.offer h1 {
+.offer .head {
   width: 100%;
   text-align: center;
   margin-top: 30px;
@@ -334,7 +334,7 @@ header .photo {
   font-size: 13px;
 }
 
-.offer img {
-  width: 55%;
+.offer .flex img {
+  width: 70%;
   margin: 0 auto;
 }
