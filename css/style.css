@@ -295,6 +295,46 @@ header .photo {
   }
 }
 
-.intro {
-  overflow: hidden;
+.offer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.offer h1 {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+.offer .technology h2 {
+  padding-top: 20px;
+}
+
+.offer .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.offer .flex h2 {
+  font-size: 13px;
+}
+
+.offer img {
+  width: 55%;
+  margin: 0 auto;
 }
