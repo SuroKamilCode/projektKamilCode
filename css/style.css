@@ -24,8 +24,8 @@ header .name {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  width: 80%;
-  height: 50%;
+  width: 100%;
+  padding: 0 30px;
   text-align: center;
   letter-spacing: 1px;
   color: #ac7a33;
@@ -33,6 +33,7 @@ header .name {
           animation: move 3s linear;
   overflow: hidden;
   text-transform: uppercase;
+  z-index: 1;
 }
 
 header .name h1 {
@@ -56,9 +57,231 @@ header .photo {
   position: absolute;
   right: 0;
   bottom: 0;
-  height: 50%;
+  height: 55%;
   background: #334652;
   overflow: hidden;
+}
+
+@media (min-width: 320px) {
+  header .name {
+    padding: 0 40px;
+  }
+  header .photo {
+    height: 50%;
+  }
+  header .name h1 {
+    font-size: 16px;
+  }
+  header .name h2 {
+    font-size: 16px;
+  }
+  header .name h3 {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 360px) {
+  header .photo {
+    height: 55%;
+  }
+  header .name h1 {
+    font-size: 17px;
+  }
+  header .name h2 {
+    font-size: 17px;
+  }
+  header .name h3 {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 411px) {
+  header .photo {
+    height: 60%;
+  }
+  header .name h1 {
+    font-size: 18px;
+  }
+  header .name h2 {
+    font-size: 18px;
+  }
+  header .name h3 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  header .name {
+    padding: 0 60px;
+  }
+  header .photo {
+    height: 65%;
+  }
+  header .name h1 {
+    font-size: 25px;
+  }
+  header .name h2 {
+    font-size: 25px;
+  }
+  header .name h3 {
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 533px) and (orientation: landscape) {
+  header .name {
+    top: 50%;
+    left: 30%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 60%;
+    text-align: left;
+  }
+  header .photo {
+    height: 90%;
+  }
+  header .name h1 {
+    font-size: 14px;
+  }
+  header .name h2 {
+    font-size: 14px;
+  }
+  header .name h3 {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 640px) and (orientation: landscape) {
+  header .name {
+    width: 50%;
+  }
+  header .name h1 {
+    font-size: 16px;
+  }
+  header .name h2 {
+    font-size: 16px;
+  }
+  header .name h3 {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 714px) and (orientation: landscape) {
+  header .name {
+    top: 30%;
+  }
+  header .photo {
+    height: 80%;
+  }
+  header .name h1 {
+    font-size: 18px;
+  }
+  header .name h2 {
+    font-size: 18px;
+  }
+  header .name h3 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 731px) and (orientation: landscape) {
+  header .name {
+    top: 35%;
+  }
+  header .name h1 {
+    font-size: 20px;
+  }
+  header .name h2 {
+    font-size: 20px;
+  }
+  header .name h3 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  header .name {
+    top: 40%;
+    left: 35%;
+    width: 60%;
+  }
+  header .photo {
+    height: 75%;
+  }
+  header .name h1 {
+    font-size: 30px;
+  }
+  header .name h2 {
+    font-size: 30px;
+  }
+  header .name h3 {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1025px) and (orientation: landscape) {
+  header .name {
+    top: 45%;
+    left: 30%;
+    width: 55%;
+  }
+  header .photo {
+    height: 80%;
+  }
+  header .name h1 {
+    font-size: 31px;
+  }
+  header .name h2 {
+    font-size: 31px;
+  }
+  header .name h3 {
+    font-size: 27px;
+  }
+}
+
+@media (min-width: 1366px) and (orientation: landscape) {
+  header .photo {
+    height: 85%;
+  }
+  header .name h1 {
+    font-size: 35px;
+  }
+  header .name h2 {
+    font-size: 35px;
+  }
+  header .name h3 {
+    font-size: 31px;
+  }
+}
+
+@media (min-width: 1600px) and (orientation: landscape) {
+  header .photo {
+    height: 90%;
+  }
+  header .name h1 {
+    font-size: 40px;
+  }
+  header .name h2 {
+    font-size: 40px;
+  }
+  header .name h3 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 1920px) and (orientation: landscape) {
+  header .photo {
+    height: 95%;
+  }
+  header .name h1 {
+    font-size: 55px;
+  }
+  header .name h2 {
+    font-size: 55px;
+  }
+  header .name h3 {
+    font-size: 51px;
+  }
 }
 
 @-webkit-keyframes move {
