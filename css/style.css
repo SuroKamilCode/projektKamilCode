@@ -38,18 +38,24 @@ header .name {
 header .name h1 {
   font-size: 16px;
   font-weight: 700;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 header .name h2 {
   font-size: 16px;
   padding-top: 5px;
   font-weight: 400;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 header .name h3 {
   font-size: 12px;
   padding-top: 10px;
   font-weight: 400;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 header .photo {
@@ -59,6 +65,8 @@ header .photo {
   height: 55%;
   background-color: #1073ba;
   overflow: hidden;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 @media (min-width: 320px) {
@@ -343,6 +351,8 @@ header .photo {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .offer .flex h2 {
@@ -352,6 +362,8 @@ header .photo {
 .offer .flex img {
   width: 70%;
   margin: 0 auto;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 @media (min-width: 411px) {
@@ -569,6 +581,8 @@ header .photo {
 
 .projects .link {
   width: 80%;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .projects .link a {
@@ -597,6 +611,7 @@ header .photo {
   width: 100%;
   margin: 0 auto;
   min-height: 50vh;
+  overflow: hidden;
 }
 
 .about h1 {
@@ -618,9 +633,18 @@ header .photo {
   padding: 10px 25px;
   max-width: 768px;
   margin: 0 auto;
+  -webkit-transform: translateX(100vw);
+          transform: translateX(100vw);
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
 }
 
-.about .author1 h2 {
+.about .author1.active {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.about .author1.active h2 {
   margin-bottom: 15px;
 }
 
@@ -705,7 +729,7 @@ header .photo {
   }
 }
 
-@media (min-width: 1600px) and (orientation: landscape) {
+@media (min-width: 1920px) and (orientation: landscape) {
   .about h1 {
     font-size: 30px;
   }

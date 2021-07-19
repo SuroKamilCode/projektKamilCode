@@ -3,6 +3,7 @@
     width: 100%
     margin: 0 auto
     min-height: 50vh
+    overflow: hidden
     h1
         max-width: 1366px
         width: 100%
@@ -20,6 +21,10 @@
         padding: 10px 25px
         max-width: 768px
         margin: 0 auto
+        transform: translateX(100vw)
+        transition: 1.5s
+    .author1.active
+        transform: translateX(0)
         h2
             margin-bottom: 15px
 
@@ -86,7 +91,7 @@
         .author1
             font-size: 21px
 
-@media (min-width:1600px) and (orientation: landscape)
+@media (min-width:1920px) and (orientation: landscape)
     .about
         h1
             font-size: 30px
