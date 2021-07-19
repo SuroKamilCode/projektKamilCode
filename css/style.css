@@ -14,7 +14,7 @@ body {
 header {
   position: relative;
   height: 100vh;
-  background-color: #3D4757;
+  background-color: #1073ba;
 }
 
 header .name {
@@ -27,7 +27,7 @@ header .name {
   padding: 0 30px;
   text-align: center;
   letter-spacing: 1px;
-  color: #D7FFB3;
+  color: white;
   -webkit-animation: move 1.5s linear;
           animation: move 1.5s linear;
   overflow: hidden;
@@ -57,7 +57,7 @@ header .photo {
   right: 0;
   bottom: 0;
   height: 55%;
-  background-color: #3D4757;
+  background-color: #1073ba;
   overflow: hidden;
 }
 
@@ -547,5 +547,45 @@ header .photo {
 @media (min-width: 1920px) and (orientation: landscape) {
   .proud {
     font-size: 30px;
+  }
+}
+
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  background-color: white;
+  margin: 30px 0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  overflow: hidden;
+}
+
+.projects .link {
+  width: 48%;
+}
+
+.projects .link a {
+  display: block;
+  margin: 10px 15px;
+}
+
+.projects .link a img {
+  width: 100%;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  .projects .link:hover img {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
   }
 }
