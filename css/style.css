@@ -187,7 +187,7 @@ header .photo {
 
 @media (min-width: 714px) and (orientation: landscape) {
   header .name {
-    top: 30%;
+    top: 45%;
   }
   header .photo {
     height: 80%;
@@ -754,7 +754,17 @@ header .photo {
 }
 
 .contact .container {
+  padding-top: 5px;
   line-height: 30px;
+}
+
+@media (min-width: 393px) {
+  .contact .call {
+    padding: 20px 0;
+  }
+  .contact .container {
+    line-height: 40px;
+  }
 }
 
 @media (min-width: 411px) {
