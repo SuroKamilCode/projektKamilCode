@@ -205,7 +205,7 @@ header .photo {
 
 @media (min-width: 731px) and (orientation: landscape) {
   header .name {
-    top: 35%;
+    top: 45%;
   }
   header .name h1 {
     font-size: 20px;
