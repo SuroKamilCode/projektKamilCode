@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -22,14 +22,14 @@ header .name {
   top: 10%;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+          transform: translateX(-50%);
   width: 100%;
   padding: 0 30px;
   text-align: center;
   letter-spacing: 1px;
   color: white;
   -webkit-animation: move 1.5s linear;
-  animation: move 1.5s linear;
+          animation: move 1.5s linear;
   overflow: hidden;
   text-transform: uppercase;
   z-index: 1;
@@ -73,19 +73,15 @@ header .photo {
   header .name {
     padding: 0 40px;
   }
-
   header .photo {
     height: 50%;
   }
-
   header .name h1 {
     font-size: 16px;
   }
-
   header .name h2 {
     font-size: 16px;
   }
-
   header .name h3 {
     font-size: 10px;
   }
@@ -95,15 +91,12 @@ header .photo {
   header .photo {
     height: 55%;
   }
-
   header .name h1 {
     font-size: 17px;
   }
-
   header .name h2 {
     font-size: 17px;
   }
-
   header .name h3 {
     font-size: 11px;
   }
@@ -113,15 +106,12 @@ header .photo {
   header .photo {
     height: 60%;
   }
-
   header .name h1 {
     font-size: 18px;
   }
-
   header .name h2 {
     font-size: 18px;
   }
-
   header .name h3 {
     font-size: 14px;
   }
@@ -131,19 +121,15 @@ header .photo {
   header .name {
     padding: 0 60px;
   }
-
   header .photo {
     height: 65%;
   }
-
   header .name h1 {
     font-size: 25px;
   }
-
   header .name h2 {
     font-size: 25px;
   }
-
   header .name h3 {
     font-size: 23px;
   }
@@ -153,11 +139,9 @@ header .photo {
   header .name h1 {
     font-size: 35px;
   }
-
   header .name h2 {
     font-size: 35px;
   }
-
   header .name h3 {
     font-size: 33px;
   }
@@ -168,23 +152,19 @@ header .photo {
     top: 50%;
     left: 30%;
     -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     width: 60%;
     text-align: left;
   }
-
   header .photo {
     height: 90%;
   }
-
   header .name h1 {
     font-size: 14px;
   }
-
   header .name h2 {
     font-size: 14px;
   }
-
   header .name h3 {
     font-size: 10px;
   }
@@ -194,15 +174,12 @@ header .photo {
   header .name {
     width: 50%;
   }
-
   header .name h1 {
     font-size: 16px;
   }
-
   header .name h2 {
     font-size: 16px;
   }
-
   header .name h3 {
     font-size: 12px;
   }
@@ -212,19 +189,15 @@ header .photo {
   header .name {
     top: 30%;
   }
-
   header .photo {
     height: 80%;
   }
-
   header .name h1 {
     font-size: 18px;
   }
-
   header .name h2 {
     font-size: 18px;
   }
-
   header .name h3 {
     font-size: 14px;
   }
@@ -234,15 +207,12 @@ header .photo {
   header .name {
     top: 35%;
   }
-
   header .name h1 {
     font-size: 20px;
   }
-
   header .name h2 {
     font-size: 20px;
   }
-
   header .name h3 {
     font-size: 16px;
   }
@@ -254,19 +224,15 @@ header .photo {
     left: 35%;
     width: 60%;
   }
-
   header .photo {
     height: 75%;
   }
-
   header .name h1 {
     font-size: 30px;
   }
-
   header .name h2 {
     font-size: 30px;
   }
-
   header .name h3 {
     font-size: 26px;
   }
@@ -278,19 +244,15 @@ header .photo {
     left: 30%;
     width: 55%;
   }
-
   header .photo {
     height: 80%;
   }
-
   header .name h1 {
     font-size: 31px;
   }
-
   header .name h2 {
     font-size: 31px;
   }
-
   header .name h3 {
     font-size: 27px;
   }
@@ -300,15 +262,12 @@ header .photo {
   header .photo {
     height: 85%;
   }
-
   header .name h1 {
     font-size: 35px;
   }
-
   header .name h2 {
     font-size: 35px;
   }
-
   header .name h3 {
     font-size: 31px;
   }
@@ -318,15 +277,12 @@ header .photo {
   header .photo {
     height: 90%;
   }
-
   header .name h1 {
     font-size: 40px;
   }
-
   header .name h2 {
     font-size: 40px;
   }
-
   header .name h3 {
     font-size: 36px;
   }
@@ -336,15 +292,12 @@ header .photo {
   header .photo {
     height: 95%;
   }
-
   header .name h1 {
     font-size: 55px;
   }
-
   header .name h2 {
     font-size: 55px;
   }
-
   header .name h3 {
     font-size: 51px;
   }
@@ -368,8 +321,8 @@ header .photo {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   max-width: 1366px;
   margin: 0 auto;
 }
@@ -395,8 +348,8 @@ header .photo {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
   -webkit-transition: .3s;
   transition: .3s;
@@ -417,7 +370,6 @@ header .photo {
   .offer .head {
     font-size: 18px;
   }
-
   .offer .flex h2 {
     font-size: 15px;
   }
@@ -427,7 +379,6 @@ header .photo {
   .offer .head {
     font-size: 30px;
   }
-
   .offer .flex h2 {
     font-size: 25px;
   }
@@ -437,7 +388,6 @@ header .photo {
   .offer .head {
     font-size: 40px;
   }
-
   .offer .flex h2 {
     font-size: 32px;
   }
@@ -447,35 +397,30 @@ header .photo {
   .offer {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
   }
-
   .offer .head {
     font-size: 16px;
     -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
+        flex-basis: 100%;
   }
-
   .offer .flex {
     -ms-flex-preferred-size: 15%;
-    flex-basis: 15%;
+        flex-basis: 15%;
     -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
     padding: 20px 30px;
   }
-
   .offer .flex h2 {
     font-size: 11px;
   }
-
   .offer .flex img {
     width: 100%;
   }
-
   .offer .technology h2 {
     padding: 0;
   }
@@ -485,7 +430,6 @@ header .photo {
   .offer .head {
     font-size: 17px;
   }
-
   .offer .flex h2 {
     font-size: 13px;
   }
@@ -495,7 +439,6 @@ header .photo {
   .offer .head {
     font-size: 19px;
   }
-
   .offer .flex h2 {
     font-size: 15px;
   }
@@ -506,7 +449,6 @@ header .photo {
     font-size: 21px;
     padding: 50px 10px;
   }
-
   .offer .flex h2 {
     font-size: 17px;
   }
@@ -517,7 +459,6 @@ header .photo {
     font-size: 23px;
     padding: 60px 10px;
   }
-
   .offer .flex h2 {
     font-size: 19px;
   }
@@ -527,7 +468,6 @@ header .photo {
   .offer .head {
     font-size: 25px;
   }
-
   .offer .flex h2 {
     font-size: 21px;
   }
@@ -537,7 +477,6 @@ header .photo {
   .offer .head {
     font-size: 30px;
   }
-
   .offer .flex h2 {
     font-size: 24px;
   }
@@ -546,7 +485,7 @@ header .photo {
 .proud {
   max-width: 1366px;
   width: 100%;
-  background-color: #e6a329;
+  background-color: #1073ba;
   color: white;
   text-align: center;
   height: 15vh;
@@ -628,15 +567,15 @@ header .photo {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
   background-color: white;
   margin: 30px 0;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   overflow: hidden;
 }
 
@@ -661,10 +600,9 @@ header .photo {
   .projects .link {
     width: 48%;
   }
-
   .projects .link:hover img {
     -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+            transform: scale(1.1);
   }
 }
 
@@ -679,7 +617,7 @@ header .photo {
 .about h1 {
   max-width: 1366px;
   width: 100%;
-  background-color: #30a953;
+  background-color: #1073ba;
   color: white;
   text-align: center;
   height: 15vh;
@@ -696,14 +634,14 @@ header .photo {
   max-width: 768px;
   margin: 0 auto;
   -webkit-transform: translateX(100vw);
-  transform: translateX(100vw);
+          transform: translateX(100vw);
   -webkit-transition: 1.5s;
   transition: 1.5s;
 }
 
 .about .author1.active {
   -webkit-transform: translateX(0);
-  transform: translateX(0);
+          transform: translateX(0);
 }
 
 .about .author1.active h2 {
@@ -714,7 +652,6 @@ header .photo {
   .about h1 {
     font-size: 18px;
   }
-
   .about .author1 {
     font-size: 15px;
   }
@@ -724,7 +661,6 @@ header .photo {
   .about h1 {
     font-size: 30px;
   }
-
   .about .author1 {
     font-size: 25px;
   }
@@ -734,7 +670,6 @@ header .photo {
   .about h1 {
     font-size: 40px;
   }
-
   .about .author1 {
     font-size: 32px;
   }
@@ -744,7 +679,6 @@ header .photo {
   .about h1 {
     font-size: 16px;
   }
-
   .about .author1 {
     font-size: 11px;
   }
@@ -754,7 +688,6 @@ header .photo {
   .about h1 {
     font-size: 17px;
   }
-
   .about .author1 {
     font-size: 13px;
   }
@@ -764,7 +697,6 @@ header .photo {
   .about h1 {
     font-size: 19px;
   }
-
   .about .author1 {
     font-size: 15px;
   }
@@ -774,7 +706,6 @@ header .photo {
   .about h1 {
     font-size: 21px;
   }
-
   .about .author1 {
     font-size: 17px;
   }
@@ -784,7 +715,6 @@ header .photo {
   .about h1 {
     font-size: 23px;
   }
-
   .about .author1 {
     font-size: 19px;
   }
@@ -794,7 +724,6 @@ header .photo {
   .about h1 {
     font-size: 25px;
   }
-
   .about .author1 {
     font-size: 21px;
   }
@@ -804,7 +733,6 @@ header .photo {
   .about h1 {
     font-size: 30px;
   }
-
   .about .author1 {
     font-size: 24px;
   }
@@ -814,7 +742,7 @@ header .photo {
   position: relative;
   min-height: 20vh;
   width: 100%;
-  background-color: #333;
+  background-color: #1073ba;
   color: white;
   text-align: center;
   font-size: 14px;
@@ -829,16 +757,13 @@ header .photo {
   line-height: 30px;
 }
 
-
 @media (min-width: 411px) {
   .contact {
     font-size: 17px;
   }
-
   .contact .call {
     padding: 15px 0;
   }
-
   .contact .container {
     line-height: 40px;
   }
@@ -848,11 +773,9 @@ header .photo {
   .contact {
     font-size: 30px;
   }
-
   .contact .call {
     padding: 20px 0;
   }
-
   .contact .container {
     line-height: 55px;
   }
@@ -862,11 +785,9 @@ header .photo {
   .contact {
     font-size: 40px;
   }
-
   .contact .call {
     padding: 20px 0;
   }
-
   .contact .container {
     line-height: 55px;
   }
@@ -876,22 +797,20 @@ header .photo {
   .contact {
     font-size: 13px;
   }
-
   .contact .container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-bottom: 20px;
   }
-
   .contact .container p {
     -ms-flex-preferred-size: 40%;
-    flex-basis: 40%;
+        flex-basis: 40%;
   }
 }
 
@@ -917,8 +836,38 @@ header .photo {
   .contact {
     font-size: 23px;
   }
-
   .contact .call {
     padding: 40px 0;
   }
+}
+
+@media (min-width: 1600px) and (orientation: landscape) {
+  .contact {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1920px) and (orientation: landscape) {
+  .contact {
+    font-size: 30px;
+  }
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 5px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 2.1vh;
+}
+
+footer p a {
+  text-decoration: none;
+  cursor: pointer;
+  color: red;
+  font-weight: 700;
 }
